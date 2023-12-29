@@ -46,8 +46,9 @@ module.exports = {
       },
       backgroundImage : {
         'heroBanner' : "url('/src/images/hero-banner.png')",
-        'heroTriangle' : "url('/src/images/hero-triangle-image.png')"
-      },
+        'heroTriangle' : "url('/src/images/hero-triangle-image.png')",
+        'newsletterBG' : "url('/src/images/letter-logo.png')"
+      }, 
       boxShadow : {
         'rating' : '2px 12px 20px 0px rgba(0, 0, 0, 0.10)',
         'feature' : '12px 12px 20px 0px rgba(0, 0, 0, 0.10)'
