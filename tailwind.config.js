@@ -26,6 +26,13 @@ module.exports = {
         lg : '1056px'
       }
     },
+    screens: {
+      'sm' : '640px',
+      'md' : '768px',
+      'lg' : '1024px',
+      'xl' : '1280px',
+      '2xl' : '1536px'
+    },
     extend: {
       fontSize : {
         '34' : '34px',
