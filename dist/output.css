@@ -669,6 +669,10 @@ video {
   width: 840px;
 }
 
+.w-24 {
+  width: 100px;
+}
+
 .max-w-80 {
   max-width: 20rem;
 }
@@ -1212,6 +1216,14 @@ video {
   padding-top: 60px;
 }
 
+.pl-12 {
+  padding-left: 3rem;
+}
+
+.pl-20 {
+  padding-left: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1366,4 +1378,45 @@ video {
 .hover\:text-yellow:hover {
   --tw-text-opacity: 1;
   color: rgb(255 194 71 / var(--tw-text-opacity));
+}
+
+@media (min-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:space-x-10 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1rem * var(--tw-space-x-reverse));
+    margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:rounded {
+    border-radius: 0.25rem;
+  }
+
+  .lg\:rounded-3xl {
+    border-radius: 1.5rem;
+  }
+
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
+  .lg\:pl-6 {
+    padding-left: 1.5rem;
+  }
 }
