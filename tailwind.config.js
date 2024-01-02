@@ -27,11 +27,11 @@ module.exports = {
       }
     },
     screens: {
-      'sm' : '640px',
-      'md' : '768px',
-      'lg' : '1024px',
-      'xl' : '1280px',
-      '2xl' : '1536px'
+      'sm' : {'max' : '640px'},
+      'md' : {'max' : '768px'},
+      'lg' : {'max' : '1024px'},
+      'xl' : {'max' : '1280px'},
+      '2xl' : {'max' : '1536px'}
     },
     extend: {
       fontSize : {
@@ -43,8 +43,8 @@ module.exports = {
         '72.0' : '72px',
         'topbottom' : '84px',
         'leftright' : '132px',
-        '24' : '100px',
-        '28' : '120px',
+        '100' : '100px',
+        '120' : '120px',
         '86' : '596px',
         '90' : '720px',
         '96' : '820px',
