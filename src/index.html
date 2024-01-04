@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="row-2 flex space-x-6 justify-center py-72.0">
-                    <div class="rating-cards bg-white p-9 max-w-m  rounded-[48px] shadow-rating lg:w-[280px]">
+                    <div class="rating-cards bg-white p-9 max-w-m  rounded-[48px] shadow-rating">
                         <div class="row-1">
                             <div class="media flex space-x-1">
                                 <img src=" ./images/star-icon.png" alt="star" width="20px" height="20px">
@@ -421,12 +421,12 @@
                     </button>
                 </div>
             </section>
-
         </div>
 
+        <!-- Footer -->
         <div class="site-footer bg-primary-text-blue py-100 px-48 lg:px-14 lg:py-14">
             <div class="footer-wrapper">
-                <div class="row-1 flex space-x-[60px] justify-between lg:columns-2">
+                <div class="row-1 flex space-x-[60px] justify-between lg:space-x-0">
                     <div class="col-1 text-white">
                         <div class="slogan text-2xl font-extrabold">
                             Scan. Detect. Remove.
@@ -452,7 +452,7 @@
                         <div class="certo text-4xl text-white font-extrabold pb-6 border-b-[1px] border-white">
                             Certo
                         </div>
-                        <div class="list flex flex-col space-y-6 pt-[60px]">
+                        <div class="list flex flex-col space-y-6 pt-[60px] lg:pt-10">
                             <div class="items-center inline-flex space-x-6 text-yellow ">
                                 <div class="w-5 h-0.5 bg-yellow "></div>
                                 <div class="list-items text-xl font-extrabold -tracking-[0.4px]">iPhone</div>
@@ -476,33 +476,33 @@
                         </div>
                     </div>
                     <div class="col-3">
-                        <div
-                            class="newsletter-card bg-yellow p-9 rounded-[42px] max-w-[436px] bg-newsletterBG bg-no-repeat bg-cover">
+                        <div class="newsletter-card bg-yellow p-9 rounded-[42px] max-w-[436px] bg-newsletterBG bg-no-repeat bg-cover
+                        lg:max-w-[336px] lg:bg-center">
                             <div class="title text-2xl font-extrabold -tracking-[0.48px]">
                                 Sign up to our newsletter
                             </div>
-                            <div class="description text-base font-normal pt-5 pb-9 w-[358px]">
+                            <div class="description text-base font-normal pt-5 pb-9 w-[358px] 
+                            lg:w-[280px]">
                                 Receive the latest mobile security news, exclusive discounts & offers straight to your
                                 inbox!
                             </div>
-                            <div class="submit-bar flex bg-white max-w-[364px] rounded-3xl">
-                                <input
-                                    class="email-input text-primary-text-blue opacity-50 text-base font-normal py-2 px-4 w-64 rounded-tl-3xl rounded-bl-3xl placeholder-primary-text-blue"
-                                    placeholder="Email Address">
+                            <div class="submit-bar flex bg-white max-w-[364px] rounded-3xl lg:flex justify-between">
+                                <input class="email-input text-primary-text-blue opacity-50 text-base font-normal py-2 px-4 w-64 rounded-tl-3xl rounded-bl-3xl 
+                                lg:w-40 placeholder-primary-text-blue" placeholder="Email Address">
                                 </input>
-                                <button
-                                    class="text-base text-white font-extrabold text-center bg-primary-text-blue py-2 px-7 rounded-tr-3xl rounded-br-3xl">
+                                <button class="text-base text-white font-extrabold text-center bg-primary-text-blue py-2 px-7 rounded-tr-3xl rounded-br-3xl
+                                lg:font-bold lg:px-3">
                                     Submit
                                 </button>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row-2 pt-9 flex items-center justify-between space-x-86">
+                <div class="row-2 pt-9 flex items-center justify-between">
                     <div class="col-1">
                         <img src="./images/coalition_against_stalkerware_logo.png" alt="" width="160px" height="">
                     </div>
-                    <div class="awards p-4 bg-white rounded-xl max-w-80 flex justify-center space-x-8">
+                    <div class="col-2 awards p-4 bg-white rounded-xl max-w-80 flex justify-center space-x-8">
                         <img src="./images/Cybersecurity-2023-Gold-PNG-gold.png" alt="" width="78px" height="72px">
                         <img src="./images/badges_2023_Gold.png" alt="" width="53px" height="72px">
                         <img src="./images/Winners-Badge-Global-Infosec.png" alt="" width="100px" height="72px">
@@ -515,9 +515,13 @@
                 </div>
             </div>
         </div>
+
         <div class="circle-shape px-12 py-12">
             <div class="relative rounded-full bg-primary-text-blue w-8 h-8">
                 <div class="absolute rounded-full bg-sky-blue w-4 h-4 left-2 top-2"></div>
+            </div>
+            <div class="mt-4 relative rounded-full bg-primary-text-blue w-8 h-8
+            after:absolute after:w-4 after:bg-sky-blue  after:h-4 after:left-[50%] after:top-[50%] after:-translate-x-[50%] after:-translate-y-[50%] after:rounded-full">
             </div>
         </div>
     </div>
