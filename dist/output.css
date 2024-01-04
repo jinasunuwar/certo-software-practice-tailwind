@@ -1563,6 +1563,10 @@ video {
     width: 280px;
   }
 
+  .lg\:w-\[280\] {
+    width: 280;
+  }
+
   .lg\:max-w-\[336px\] {
     max-width: 336px;
   }
