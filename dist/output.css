@@ -757,6 +757,10 @@ video {
   max-width: 400px;
 }
 
+.max-w-64 {
+  max-width: 16rem;
+}
+
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
@@ -1044,6 +1048,10 @@ video {
   background-size: cover;
 }
 
+.bg-center {
+  background-position: center;
+}
+
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1166,6 +1174,16 @@ video {
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-0\.5 {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
 }
 
 .pb-100 {
@@ -1433,8 +1451,52 @@ video {
     margin-right: 0px;
   }
 
+  .lg\:flex {
+    display: flex;
+  }
+
   .lg\:w-\[280px\] {
     width: 280px;
+  }
+
+  .lg\:w-\[\] {
+    width: ;
+  }
+
+  .lg\:w-\[286px\] {
+    width: 286px;
+  }
+
+  .lg\:w-52 {
+    width: 13rem;
+  }
+
+  .lg\:w-40 {
+    width: 10rem;
+  }
+
+  .lg\:max-w-\[\] {
+    max-width: ;
+  }
+
+  .lg\:max-w-\[33\] {
+    max-width: 33;
+  }
+
+  .lg\:max-w-\[336\] {
+    max-width: 336;
+  }
+
+  .lg\:max-w-\[336px\] {
+    max-width: 336px;
+  }
+
+  .lg\:max-w-\[280\] {
+    max-width: 280;
+  }
+
+  .lg\:max-w-\[280px\] {
+    max-width: 280px;
   }
 
   .lg\:columns-2 {
@@ -1470,6 +1532,18 @@ video {
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
   }
 
+  .lg\:bg-contain {
+    background-size: contain;
+  }
+
+  .lg\:bg-cover {
+    background-size: cover;
+  }
+
+  .lg\:bg-center {
+    background-position: center;
+  }
+
   .lg\:px-100 {
     padding-left: 100px;
     padding-right: 100px;
@@ -1483,6 +1557,31 @@ video {
   .lg\:py-14 {
     padding-top: 3.5rem;
     padding-bottom: 3.5rem;
+  }
+
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+
+  .lg\:py-0\.5 {
+    padding-top: 0.125rem;
+    padding-bottom: 0.125rem;
+  }
+
+  .lg\:px-2 {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lg\:px-1 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .lg\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .lg\:pl-0 {
@@ -1499,5 +1598,9 @@ video {
 
   .lg\:pt-100 {
     padding-top: 100px;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
   }
 }
