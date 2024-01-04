@@ -560,6 +560,26 @@ video {
   top: 1.5rem;
 }
 
+.left-2 {
+  left: 0.5rem;
+}
+
+.left-1 {
+  left: 0.25rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
+.top-2 {
+  top: 0.5rem;
+}
+
+.right-2 {
+  right: 0.5rem;
+}
+
 .my-6 {
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
@@ -603,6 +623,22 @@ video {
 
 .h-0\.5 {
   height: 0.125rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-5 {
+  height: 1.25rem;
 }
 
 .w-48 {
@@ -667,6 +703,18 @@ video {
 
 .w-\[840px\] {
   width: 840px;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-6 {
+  width: 1.5rem;
 }
 
 .max-w-80 {
@@ -1110,6 +1158,16 @@ video {
   padding-bottom: 84px;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
 .pb-100 {
   padding-bottom: 100px;
 }
@@ -1379,6 +1437,11 @@ video {
     width: 280px;
   }
 
+  .lg\:columns-2 {
+    -moz-columns: 2;
+         columns: 2;
+  }
+
   .lg\:flex-col {
     flex-direction: column;
   }
@@ -1405,6 +1468,21 @@ video {
     --tw-space-y-reverse: 0;
     margin-top: calc(2rem * calc(1 - var(--tw-space-y-reverse)));
     margin-bottom: calc(2rem * var(--tw-space-y-reverse));
+  }
+
+  .lg\:px-100 {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .lg\:px-14 {
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+  }
+
+  .lg\:py-14 {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
   }
 
   .lg\:pl-0 {
