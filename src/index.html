@@ -17,12 +17,14 @@
                 <img src="./images/logo.png" alt="logo" width="156px" height="54px">
             </div>
             <div
-                class="nav-bar text-xl text-primary-text-blue font-extrabold flex space-x-[50px] items-center lg:space-x-6">
-                <div>iPhone</div>
-                <div>Android</div>
-                <div>Help</div>
+                class="nav-bar text-xl text-primary-text-blue font-extrabold flex space-x-[50px] items-center lg:space-x-6 lg:hidden">
+                <div><a href="">iPhone</div></a>
+                <div><a href="">Android</div></a>
+                <div><a href="">Help</div></a>
                 <div class="flex items-center">
-                    <div class="pr-2.5">Company</div>
+                    <a href="">
+                        <div class="pr-2.5">Company</div>
+                    </a>
                     <div><img src="./images/arrow-down.png" alt="arrow-down" width="12px" height="4px"></div>
                 </div>
                 <div class="pl-12 lg:pl-6">
@@ -31,14 +33,19 @@
                     </button>
                 </div>
             </div>
+            <button class="hamburger-menu hidden lg:block space-y-1">
+                <div class="bg-primary-text-blue w-7  h-1 rounded-xl"></div>
+                <div class="bg-primary-text-blue w-7  h-1 rounded-xl"></div>
+                <div class="bg-primary-text-blue w-7  h-1 rounded-xl"></div>
+            </button>
         </div>
 
         <div class="site-content">
             <!-- Hero Section -->
             <section class="hero-section">
                 <div
-                    class="hero-banner bg-heroBanner bg-no-repeat pt-28 pl-44 flex justify-between flex-nowrap flex-row lg:pl-100 lg:pt-100">
-                    <div class="col-1 w-96 ">
+                    class="hero-banner bg-heroBanner bg-no-repeat pt-28 pl-44 flex justify-between flex-row lg:pl-100 lg:pt-100">
+                    <div class="col-1 w-96">
                         <div class="hero-description">
                             <h1 class="text-6xl font-extrabold mb-12">Your mobile privacy is our mission</h1>
                             <p class="text-xl font-normal w-86">Think your phone has been hacked? Our trusted apps make
@@ -520,7 +527,8 @@
             <div class="relative rounded-full bg-primary-text-blue w-8 h-8">
                 <div class="absolute rounded-full bg-sky-blue w-4 h-4 left-2 top-2"></div>
             </div>
-            <div class="mt-4 relative rounded-full bg-primary-text-blue w-8 h-8
+            <div
+                class="mt-4 relative rounded-full bg-primary-text-blue w-8 h-8
             after:absolute after:w-4 after:bg-sky-blue  after:h-4 after:left-[50%] after:top-[50%] after:-translate-x-[50%] after:-translate-y-[50%] after:rounded-full">
             </div>
         </div>
