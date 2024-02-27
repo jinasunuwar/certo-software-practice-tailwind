@@ -50,6 +50,7 @@ module.exports = {
         '90' : '720px',
         '96' : '820px',
         'm' : '400px',
+        '416' : '416px',
         '305' : '305px'
       },
       backgroundImage : {
